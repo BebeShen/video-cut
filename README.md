@@ -1,5 +1,9 @@
 # Movie Clip
 
+## Description
+
+當初因為有剪輯影片的需求，但是覺得只是要剪一些短片段，用剪輯軟體太慢又很吃電腦效能，所以直接寫scirpt來剪，只要輸入想要片段的**起始時間**和**結束時間**即可，可以精確到小數點後兩位。
+
 ## Usage
 
 ### Prerequisites
@@ -46,7 +50,7 @@ Then enter the timestamp you want to clip in following format:
 <start_min>.<start_sec> <end.min>.<end.sec>
 ```
 
-For example:
+**Example**
 
 ```shell
 Enter start time/end time(s): 26.21 26.23
@@ -62,8 +66,8 @@ You only need to check **whether the duration is correct**
 
 ## Reference
 
-http://lausai360.blogspot.com/2017/04/python.html
+* [用 python 剪輯影片 lausai](http://lausai360.blogspot.com/2017/04/python.html)
 
-https://github.com/Zulko/moviepy
+* [moviepy](https://github.com/Zulko/moviepy)
 
-https://zulko.github.io/moviepy/ref/VideoClip/VideoClip.html#moviepy.video.io.VideoFileClip.VideoFileClip
+* [MoviePy Document](https://zulko.github.io/moviepy/index.html)
